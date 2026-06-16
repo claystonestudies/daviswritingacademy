@@ -257,6 +257,53 @@ header {
     margin-top: 18px;
 }
 
+.tutoring-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin: 28px 0 24px;
+}
+
+.option-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 22px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.option-card h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.option-card p {
+    margin-bottom: 20px;
+}
+
+.option-card .btn-primary,
+.option-card .btn-secondary {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.expectation-notes {
+    border-top: 1px solid var(--line);
+    margin-top: 18px;
+    padding-top: 16px;
+}
+
+.expectation-notes p {
+    color: var(--muted-ink);
+    font-size: 0.96rem;
+    margin-bottom: 10px;
+}
+
+.expectation-notes p:last-child {
+    margin-bottom: 0;
+}
+
 .service-list li {
     background: var(--paper);
     border: 1px solid var(--line);

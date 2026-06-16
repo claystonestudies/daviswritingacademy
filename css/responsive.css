@@ -58,6 +58,10 @@
         flex-direction: column;
     }
 
+    .tutoring-options {
+        grid-template-columns: 1fr;
+    }
+
     .two-column {
         grid-template-columns: 1fr;
     }
