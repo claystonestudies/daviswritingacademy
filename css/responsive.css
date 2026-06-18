@@ -89,10 +89,19 @@
         flex-direction: column;
     }
 
+    .book-hero,
     .tutoring-options,
     .testimonial-grid,
     .two-column {
         grid-template-columns: 1fr;
+    }
+
+    .book-theme-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .book-cover-frame img {
+        max-width: 260px;
     }
 
     .tutor-portrait {
@@ -128,6 +137,8 @@
 
     .feature,
     .card,
+    .book-theme,
+    .book-quote-box,
     .option-card,
     .testimonial-card,
     .sidebar-box,
@@ -137,6 +148,14 @@
     .callout {
         border-radius: 6px;
         padding: 18px;
+    }
+
+    .book-theme-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .book-intro h2 {
+        font-size: 1.8rem;
     }
 
     .btn-primary,
